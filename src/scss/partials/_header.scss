@@ -1,0 +1,16 @@
+.header {
+    background-color: rgb(135, 207, 236);
+    padding: 50px 0;
+    font-size: 38px;
+    text-align: center;
+
+    display: flex;
+
+    h1 {
+        font-style: 32px;
+    }
+
+    @media (max-width: 1200px) {
+        font-size: 26px;
+    }
+}
